@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./estiloscorantioquia.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg animate__animated animate__backInLeft" style="background-color: #41aa41;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="corantioquia.html">Corantioquia</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample">
+                        Acerca de
+                        <i class="bi bi-person-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="fondo">
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 text-center">
+                        <h2>Estadisticas</h2>
+                        <img src="./img/Logo-Corantioquia.jpg" alt="" class="img-fluid w-100">
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab 1" data-bs-toggle="tab"
+                                    data-bs-target="#home-tab-pane" type="button" role="tab"
+                                    aria-controls="home-tab-pane" aria-selected="true"> MUNICIPIOS</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab 2" data-bs-toggle="tab"
+                                    data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                    aria-controls="profile-tab-pane" aria-selected="false"> MEDELLIN</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab 3" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">CAUCASIA</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab 4" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab4-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">SANTAFE</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab 5" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab5-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">VEREDAS</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab 6" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab6-pane " type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">QUITASOL</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab 7" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab7-pane" type="button" role="tab"
+                                    aria-controls="contact-tab-pane" aria-selected="false">CARAMANTA</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                                aria-labelledby="home-tab" tabindex="0">
+                                <center>
+                                    <h3>Municipios de Antioquia</h3>
+                                </center>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2026903.8288812602!2d-76.62472762142929!3d7.149509062953004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429b2d9a8a783%3A0x540a36ca7581959a!2sAntioquia!5e0!3m2!1ses-419!2sco!4v1664571939012!5m2!1ses-419!2sco"
+                                    class="w-100 img-fluid" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <center>
+                                    <h3>Tabla de datos</h3>
+                                </center>
+                                <iframe src="Datospormunicipio.html" frameborder="0" class="w-100"
+                                    height="400"></iframe>
+                            </div>
+                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel"
+                                aria-labelledby="profile-tab" tabindex="0">
+                                <center>
+                                    <h3>Medellín</h3>
+                                </center>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126910.79732635187!2d-75.66643265065618!3d6.268673353460033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428ef4e52dddb%3A0x722fd6c39270ac72!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1664571885082!5m2!1ses-419!2sco"
+                                    class="w-100 img-fluid" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                <center>
+                                    <h3>Tabla de datos</h3>
+                                </center>
+                                <iframe src="DatosMedellin.html" frameborder="0" class="w-100" height="400"></iframe>
+                            </div>
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel"
+                                aria-labelledby="contact-tab" tabindex="0">
+                                <center>
+                                    <h3>Caucasia</h3>
+                                </center>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31609.570657532386!2d-75.21533763454826!3d7.978648682227518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5b6f03c070dcf1%3A0x5d4d101c959d9c74!2sCaucasia%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1664571802487!5m2!1ses-419!2sco"
+                                    class="w-100 img-fluid" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <center>
+                                    <h3>Tabla de datos</h3>
+                                </center>
+                                <iframe src="DatosCaucasia.html" frameborder="0" class="w-100" height="400"></iframe>
+                            </div>
+                            <div class="tab-pane fade" id="contact-tab4-pane" role="tabpanel"
+                                aria-labelledby="contact-tab" tabindex="0">
+                                <center>
+                                    <h3>Santafe de Antioquia</h3>
+                                </center>
+
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15854.873915737306!2d-75.83588427385521!3d6.557178974119027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e45b6178773f595%3A0xd7ed128a0342e322!2sSanta%20F%C3%A9%20de%20Antioquia%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1664571718062!5m2!1ses-419!2sco"
+                                    class="w-100 img-fluid" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <center>
+                                    <h3>Tabla de datos</h3>
+                                </center>
+                                <iframe src="DatosSantaFedeAntioquia.html" frameborder="0" class="w-100"
+                                    height="400"></iframe>
+                            </div>
+                            <div class="tab-pane fade" id="contact-tab5-pane" role="tabpanel"
+                                aria-labelledby="contact-tab" tabindex="0">
+                                <center>
+                                    <h3>Vereda Rio Arriba</h3>
+                                </center>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11392.027608905204!2d-75.30703021690539!3d5.72094038195658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46c33bb2b5ca4f%3A0x948804d101c9e524!2sRio%20Arriba%2C%20Sons%C3%B3n%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1664570864976!5m2!1ses-419!2sco"
+                                    class="w-100 img-fluid" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">Rio Arriba
+                                </iframe>
+                                <center>
+                                    <h3>Vereda Belmira</h3>
+                                </center>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7926.653770118186!2d-75.6709058760146!3d6.606240930890456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e444b9e2648775b%3A0xeeb4c14072c152c6!2sBelmira%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1664571277053!5m2!1ses-419!2sco"
+                                    class="w-100 img-fluid" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                <center>
+                                    <h3>Tabla de datos</h3>
+                                </center>
+                                <iframe src="DatosrioArribayBelmira.html" frameborder="0" class="w-100"
+                                    height="400"></iframe>
+                            </div>
+                            <div class="tab-pane fade" id="contact-tab6-pane" role="tabpanel"
+                                aria-labelledby="contact-tab" tabindex="0">
+                                <center>
+                                    <h3>Quitasol</h3>
+                                </center>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126913.08688960545!2d-75.64717397619665!3d6.259256387846053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44301eee906459%3A0xca0dd5bea9498141!2sCerro%20Quitasol!5e0!3m2!1ses-419!2sco!4v1664570394704!5m2!1ses-419!2sco"
+                                    class="w-100 img-fluid" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <center>
+                                    <h3>Tabla de datos</h3>
+                                </center>
+                                <iframe src="DatosQuitasol.html" frameborder="0" class="w-100" height="400"></iframe>
+                            </div>
+                            <div class="tab-pane fade" id="contact-tab7-pane" role="tabpanel"
+                                aria-labelledby="contact-tab" tabindex="0">
+                                <center>
+                                    <h3>Municipio de Caramanta</h3>
+                                </center>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7942.243580099193!2d-75.6480843260361!3d5.548956483906673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4701de201a2e47%3A0x1706ed036a1dbc66!2sCaramanta%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1664571562799!5m2!1ses-419!2sco"
+                                    class="w-100 img-fluid" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <center>
+                                    <h3>Tabla de datos</h3>
+                                </center>
+                                <iframe src="Datoscaramanta.html" frameborder="0" class="w-100" height="400"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
+                Button with data-bs-target
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Acerca de</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <img src="./img/gruposura.jpeg" alt="foto" class="img-fluid w-100 mx-auto d-block">
+                                <h2>Quienes Somos</h2>
+                                <p>
+                                <p>
+                                <h3>Misión</h3>
+
+                                Contribuir al logro del desarrollo sostenible, mediante el conocimiento y
+                                mejoramiento de la oferta ambiental y la administración del uso de los recursos para
+                                responder a su demanda, a través de la construcción de una cultura ambiental del
+                                territorio.
+                                </p>
+                                <p>
+                                <h3>Visión</h3>
+
+                                VISIÓN PGAR 2020 -2031 Escenario de Sostenibilidad Ambiental
+                                En 2031 los 80 municipios del centro de Antioquia forman un territorio sostenible en
+                                el que se protege el patrimonio ambiental biodiverso, se desarrollan actividades
+                                económicas en armonía con la madre tierra y sus actores regionales son
+                                corresponsables en la conservación de la diversidad biológica, étnica y cultural, y
+                                el respeto a la dignidad humana, para el buen vivir de las generaciones presentes y
+                                futuras.
+                                </p>
+                                <p>
+                                <h3>Objeto</h3>
+
+                                Nos ocupamos de la ejecución de las polí­ticas, planes, programas y proyectos sobre
+                                el medio ambiente y recursos naturales renovables, así­ como de dar cumplida y
+                                oportuna aplicación a las disposiciones legales vigentes sobre su disposición,
+                                manejo y aprovechamiento, conforme a las regulaciones, pautas y directrices
+                                expedidas por el Ministerio del Medio Ambiente.
+
+                                </p>
+                                <p>
+                                <h3>Funciones</h3>
+
+                                Ley 99 de 1993 “Por la cual se crea el Ministerio del Medio Ambiente, se reordena el
+                                Sector Público encargado de la gestión y conservación del medio ambiente y los
+                                recursos naturales renovables, se organiza el Sistema Nacional Ambiental, SINA, y se
+                                dictan otras disposiciones»
+                                </p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
